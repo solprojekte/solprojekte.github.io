@@ -1,0 +1,2 @@
+export const vision = 
+`Wir möchten die Anerkennung der Geschlechtergleichstellung auf lokaler und globaler Ebene fördern. Unsere Mission ist es, das Bewusstsein für die bestehenden Ungleichheiten zu schärfen und zur Lösung beizutragen. Mit dieser Webseite wollen wir einen zentralen Überblick und fundierte Informationen zum Thema Geschlechtergleichstellung bieten.`;

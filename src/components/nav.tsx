@@ -7,7 +7,7 @@ export default function Nav() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsOnTop(window.scrollY <= 400);
+      setIsOnTop(window.scrollY <= 450);
     };
 
     window.addEventListener('scroll', handleScroll);
