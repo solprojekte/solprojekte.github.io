@@ -40,15 +40,17 @@ nav{
 
 /* Hero */
 
+.hero{
+  position: relative;
+}
+
 .hero-text{
+  width: 100%;
   text-align: center;
   position: absolute;
   transform: translateY(-20rem);
 }
 
-.hero-text p{
-  margin: 0 20%;
-}
 .hero-image{
   width: 100%;
   object-fit: cover;
@@ -58,8 +60,8 @@ nav{
 .fade{
   width: 100%;
   position: absolute;
-  height: 800px;
-  transform: translateY(-800px);
+  height: 600px;
+  transform: translateY(-600px);
   background: linear-gradient(transparent 0%, var(--background) 100%);
 }
 
@@ -70,6 +72,7 @@ nav{
 }
 
 .geto{
+  z-index: -1;
   position: absolute;
   width: 100%;
 }
@@ -77,15 +80,50 @@ nav{
 /* Font Styles */
 h1,h2{
   font-family: 'Source Serif 4', serif;
-  font-weight: 600;
+  font-weight: 400;
+  font-optical-sizing: none;
+  font-stretch: ultra-expanded;
+}
+
+button{
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  border: 1px solid rgb(var(--text-rgb));
+  border-radius: 10px;
+  padding: 10px;
+}
+
+a{
+  transition: 0.3s;
+  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+a:hover{
+  color: var(--primary);
+}
+
+a:active{
+  transform: translateY(5px);
+}
+
+button:hover{
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+button:active{
+  transform: translateY(10px);
 }
 
 h1{
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 h2{
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h3{

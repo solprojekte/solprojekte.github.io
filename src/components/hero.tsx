@@ -1,4 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import hero from '/hero.png'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import {animateScroll as scroll} from 'react-scroll'
 
 export default function Hero() {
   return (
@@ -8,7 +11,7 @@ export default function Hero() {
       <div className='hero-text'>
         <h1>Vision & Realität</h1>
         <h2>Gender Equality Today and Onwards</h2>
-        <p>Wir möchten die Anerkennung der Geschlechtergleichstellung auf lokaler und globaler Ebene fördern. Unsere Mission ist es, das Bewusstsein für die bestehenden Ungleichheiten zu schärfen und zur Lösung beizutragen. Mit dieser Webseite wollen wir einen zentralen Überblick und fundierte Informationen zum Thema Geschlechtergleichstellung bieten.</p>
+        <a onClick={() => scroll.scrollTo(680)}><FontAwesomeIcon icon={faArrowDown} size='2x'/></a>
       </div>
     </div>
   )

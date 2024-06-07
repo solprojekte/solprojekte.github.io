@@ -9,7 +9,10 @@ export default function App() {
       <Nav />
       <Hero />
       <img src={geto} className='geto' alt="" />
-      <button>press me</button>
+      <div className='content'>
+        <p>Wir möchten die Anerkennung der Geschlechtergleichstellung auf lokaler und globaler Ebene fördern. Unsere Mission ist es, das Bewusstsein für die bestehenden Ungleichheiten zu schärfen und zur Lösung beizutragen. Mit dieser Webseite wollen wir einen zentralen Überblick und fundierte Informationen zum Thema Geschlechtergleichstellung bieten.</p>
+        <button>press me</button>
+      </div>
     </>
   )
 }
