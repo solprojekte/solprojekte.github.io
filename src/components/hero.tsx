@@ -5,7 +5,11 @@ export default function Hero() {
     <div className="hero">
       <img className='hero-image' src={hero} alt="" />
       <div className='fade'></div>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, obcaecati ipsam reprehenderit aut similique soluta, libero quo sit rem, vitae sint totam deserunt dolores doloribus sunt illum suscipit numquam itaque.</p>
+      <div className='hero-text'>
+        <h1>Vision & Realität</h1>
+        <h2>Gender Equality Today and Onwards</h2>
+        <p>Wir möchten die Anerkennung der Geschlechtergleichstellung auf lokaler und globaler Ebene fördern. Unsere Mission ist es, das Bewusstsein für die bestehenden Ungleichheiten zu schärfen und zur Lösung beizutragen. Mit dieser Webseite wollen wir einen zentralen Überblick und fundierte Informationen zum Thema Geschlechtergleichstellung bieten.</p>
+      </div>
     </div>
   )
 }

@@ -1,9 +1,9 @@
 import Hero from './components/hero'
 import Nav from './components/nav'
 import geto from '/geto.png'
-import './styles.css'
+import './index.css'
 
-function App() {
+export default function App() {
   return (
     <>
       <Nav />
@@ -13,5 +13,3 @@ function App() {
     </>
   )
 }
-
-export default App
