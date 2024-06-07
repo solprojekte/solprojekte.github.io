@@ -11,7 +11,7 @@ export default function Hero() {
       <div className='hero-text'>
         <h1>Vision & Realität</h1>
         <h2>Gender Equality Today and Onwards</h2>
-        <a onClick={() => scroll.scrollTo(680)}><FontAwesomeIcon icon={faArrowDown} size='2x'/></a>
+        <a onClick={() => scroll.scrollTo(830)}><FontAwesomeIcon icon={faArrowDown} size='2x'/></a>
       </div>
     </div>
   )
