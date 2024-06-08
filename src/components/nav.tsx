@@ -39,7 +39,7 @@ export default function Nav() {
       <div className='vr'></div>
       <Link to='vision' smooth spy offset={-100}><h3>Vision</h3></Link>
       <div className='sep'/>
-      <Link to='' smooth spy offset={-100}><h3>Umfrage</h3></Link>
+      <Link to='umfrage' smooth spy offset={-100}><h3>Umfrage</h3></Link>
       <div className='sep'/>
       <Link to='' smooth spy offset={-100}><h3>Weltweit</h3></Link>
       <div className='sep'/>

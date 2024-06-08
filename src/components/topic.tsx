@@ -17,7 +17,7 @@ export default function Topic({ id,title, children }: TopicProps) {
   const childArray = typeof children === 'string' ? [children] : (Array.isArray(children) ? children : [children]);
 
   return (
-    <div id={id}>
+    <section id={id}>
       <h3>{title}</h3>
       {childArray && childArray.map((child) => (
         typeof child === 'string' ? (
@@ -26,6 +26,6 @@ export default function Topic({ id,title, children }: TopicProps) {
           <>{child}</>
         )
       ))}
-    </div>
+    </section>
   );
 }
