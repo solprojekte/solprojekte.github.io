@@ -127,7 +127,7 @@ nav.scrolled {
   position: absolute;
   height: 300rem;
   width: 100%;
-  background: url('geto.png') repeat;
+  background: url('/geto.png') repeat;
   opacity: 0.006; /* Adjust opacity as needed */
   z-index: -1;
 }
