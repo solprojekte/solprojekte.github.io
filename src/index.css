@@ -52,10 +52,13 @@ nav h2, nav h3 {
   font-weight: 400;
 }
 
-nav h3{ 
+nav h2 {
   font-size: 1rem;
+}
+
+nav h3{ 
+  font-size: 0.8rem;
   padding: 15px;
-  font-weight: 400;
 }
 
 .sep{
@@ -78,7 +81,7 @@ nav.scrolled {
 
 .logo-image {
   padding: 20px;
-  width: 50px;
+  width: 30px;
   transition: 0.5s;
 }
 
@@ -118,6 +121,17 @@ nav.scrolled {
   padding: 6rem;
   text-align: start;
 }
+
+.wrapper::before {
+  content: '';
+  position: absolute;
+  height: 300rem;
+  width: 100%;
+  background: url('geto.png') repeat;
+  opacity: 0.006; /* Adjust opacity as needed */
+  z-index: -1;
+}
+
 
 .geto {
   z-index: -1;
@@ -175,7 +189,6 @@ section {
 /* Spans */
 span {
   position: absolute;
-  bottom: 0;
 }
 
 /* Vertical Rule */
@@ -183,7 +196,7 @@ span {
 .vr{
   border-left: 3.5px solid rgba(var(--text-rgb),0.8);
   border-radius: 10px;
-  height: 50px;
+  height: 30px;
   margin: 20px;
 }
 

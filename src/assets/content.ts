@@ -6,3 +6,12 @@ export const umfrage_überblick =
 
 export const umfrage_bevor =
 `Bevor wir die Umfrageergebnisse präsentieren, beleuchten wir die Fragen im Detail und bieten einen informativen Überblick über das Thema.`;
+
+export const bildung =
+`Nicht beide Geschlechter haben weltweit gleichberechtigten Zugang zur Bildung. In vielen Ländern, wie Afghanistan seit der Machtübernahme der Taliban 2021, sind Mädchen und Frauen stark eingeschränkt.`;
+
+export const wirtschaft =
+`Frauen sind weltweit häufiger in prekären und schlecht bezahlten Arbeitsverhältnissen beschäftigt. Der Gender Pay Gap ist besonders in Ländern wie Südkorea, aber auch in der Schweiz und Deutschland, stark ausgeprägt. Frauen übernehmen zudem den Großteil der unbezahlten Haus- und Pflegearbeit.`;
+
+export const gesundheit_rechte =
+`In vielen Teilen der Welt haben Frauen schlechteren Zugang zu Gesundheitsversorgung und sind häufiger Opfer von geschlechtsspezifischer Gewalt. In einigen Ländern haben Frauen nicht dieselben Rechte wie Männer in Bezug auf körperliche Autonomie und Familienplanung.`;
