@@ -7,7 +7,7 @@
   font-optical-sizing: none;
   font-stretch: ultra-expanded;
   color-scheme: light dark;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 
   --primary: #ff285e;
   --background: #242424;
@@ -57,7 +57,7 @@ nav h2 {
 }
 
 nav h3{ 
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding: 15px;
 }
 
