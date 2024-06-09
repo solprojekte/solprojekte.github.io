@@ -23,7 +23,7 @@
   .logo-image {
     filter: invert(1);
   }
-  .geto {
+  .wrapper::before {
     filter: invert(1);
   }
 }
@@ -128,7 +128,7 @@ nav.scrolled {
   height: 300rem;
   width: 100%;
   background: url('/geto.png') repeat;
-  opacity: 0.006; /* Adjust opacity as needed */
+  opacity: 0.02;
   z-index: -1;
 }
 
