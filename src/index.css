@@ -102,6 +102,10 @@ nav.scrolled {
   transform: translateY(-400px);
 }
 
+.hero-text h1, .hero-text h2 {
+  font-family: 'Source Serif 4', serif;
+}
+
 .hero-image {
   width: 100%;
   object-fit: cover;
@@ -125,7 +129,7 @@ nav.scrolled {
 .wrapper::before {
   content: '';
   position: absolute;
-  height: 300rem;
+  height: 135rem;
   width: 100%;
   background: url('/geto.png') repeat;
   opacity: 0.02;
@@ -177,7 +181,8 @@ a:active {
 
 /* Headings */
 h1, h2, h3 {
-  font-weight: 500;
+  font-weight: 400;
+  font-family: 'Fredoka';
 }
 
 /* Sections */

@@ -15,3 +15,23 @@ export const wirtschaft =
 
 export const gesundheit_rechte =
 `In vielen Teilen der Welt haben Frauen schlechteren Zugang zu Gesundheitsversorgung und sind häufiger Opfer von geschlechtsspezifischer Gewalt. In einigen Ländern haben Frauen nicht dieselben Rechte wie Männer in Bezug auf körperliche Autonomie und Familienplanung.`;
+
+export const tradition_kultur = 
+`Traditionelle Geschlechterrollen und kulturelle Normen fördern oft die Ungleichheit. Diese Normen können tief verwurzelt sein und beeinflussen die Erwartungen und Möglichkeiten für Frauen und Männer stark.`;
+
+export const internationale_bemühungen =
+`Initiativen wie die UN-Ziele für nachhaltige Entwicklung (insbesondere Ziel 5: Geschlechtergleichstellung) arbeiten daran, diese Ungleichheiten zu verringern. Organisationen und Bewegungen weltweit setzen sich für die Rechte und die Gleichstellung von Frauen ein, dennoch bleibt die vollständige Gleichstellung eine Herausforderung.`;
+
+export const politische_teilhabe =
+`Frauen sind weltweit in politischen Führungspositionen und Regierungsämtern unterrepräsentiert. Trotz Verbesserungen ist der Anteil von Frauen in Parlamenten und anderen politischen Gremien oft weit geringer als der der Männer.`;
+export const gesetze_diskriminierung =
+`In vielen Ländern existieren Gesetze, die Frauen diskriminieren, z.B. im Erbrecht, bei Ehe und Scheidung, Sorgerecht und Eigentumsrechten. Diese rechtlichen Hürden tragen wesentlich zur Geschlechterungleichheit bei.`;
+
+export const gender_pay_gap =
+`In der Schweiz besteht ein bemerkenswerter Gender Pay Gap. Frauen sind oft in schlechter bezahlten Branchen und Berufen tätig und haben weniger Zugang zu hochbezahlten Führungspositionen. Gründe hierfür sind berufliche Segregation, Teilzeitarbeit und Karriereunterbrechungen für Kindererziehung oder Pflegearbeit.`;
+
+export const karrierechancen =
+`Frauen sind in Führungs- und Entscheidungspositionen oft unterrepräsentiert und erfahren in vielen Bereichen direkte und indirekte Diskriminierung am Arbeitsplatz.`;
+
+export const initiativen =
+`Internationale Organisationen, Regierungen und NGOs arbeiten daran, diese Unterschiede zu verringern und die Gleichstellung der Geschlechter in der Arbeitswelt zu fördern. Initiativen in der Schweiz zielen darauf ab, gleiche Löhne und gleiche Chancen für alle Geschlechter zu gewährleisten.`;
