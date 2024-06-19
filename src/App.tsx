@@ -1,8 +1,10 @@
 import Hero from './components/hero'
 import Nav from './components/nav'
 import './index.css'
-import { bildung, gender_pay_gap, gesetze_diskriminierung, gesundheit_rechte, initiativen, internationale_bemühungen, karrierechancen, politische_teilhabe, tradition_kultur, umfrage_bevor, umfrage_überblick, vision, wirtschaft } from './assets/content'
+import { bildung, gender_pay_gap, gesetze_diskriminierung, gesundheit_rechte, initiativen, internationale_bemühungen, karrierechancen, politische_teilhabe, tradition_kultur, umfrage_überblick, vision, wirtschaft, zitat1, zitat2 } from './assets/content'
 import Topic from './components/topic'
+import { Charts } from './assets/charts'
+
 
 export default function App() {
   return (
@@ -16,11 +18,16 @@ export default function App() {
             <h4>Überblick:</h4>
             {umfrage_überblick}
             <ul>
-              <li>Sind die zwei Geschlechter weltweit gleichgestellt?</li>
-              <li>Sind die zwei Geschlechter in der Schweiz gleichgestellt?</li>
-              <li>Welches Geschlecht ist in der Gesellschaft der Schweiz höher angesehen?</li>
+              <li><strong>Erste Frage:</strong> Sind die zwei Geschlechter weltweit gleichgestellt?</li>
+              <li><strong>Zweite Frage:</strong>Sind die zwei Geschlechter in der Schweiz gleichgestellt?</li>
+              <li><strong>Dritte Frage:</strong>Welches Geschlecht ist in der Gesellschaft der Schweiz höher angesehen?</li>
             </ul>
-            {umfrage_bevor}
+            <h4>Antworten der Schülerinnen und Schüler:</h4>
+            <Charts />
+            <br />
+            <em>Es wurden 12 Personen anonym befragt.</em>
+            {zitat1}
+            {zitat2}
           </Topic>
           <Topic id='weltweit' title='Geschlechterungleichheit Weltweit'>
             <h4>Bildung</h4>
@@ -48,7 +55,6 @@ export default function App() {
             <h4>Initiativen</h4>
             {initiativen}
           </Topic>
-          <button>Test</button>
         </div>
       </div>
     </>

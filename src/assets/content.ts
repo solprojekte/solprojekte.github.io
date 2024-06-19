@@ -4,9 +4,6 @@ export const vision =
 export const umfrage_überblick =
 `Schülerinnen der Kantonsschule Uster haben sich das Ziel gesetzt, die Geschlechtergleichstellung in der Schweiz und weltweit zu untersuchen. Hierfür haben sie eine Umfrage mit drei zentralen Fragen erstellt:`;
 
-export const umfrage_bevor =
-`Bevor wir die Umfrageergebnisse präsentieren, beleuchten wir die Fragen im Detail und bieten einen informativen Überblick über das Thema.`;
-
 export const bildung =
 `Nicht beide Geschlechter haben weltweit gleichberechtigten Zugang zur Bildung. In vielen Ländern, wie Afghanistan seit der Machtübernahme der Taliban 2021, sind Mädchen und Frauen stark eingeschränkt.`;
 
@@ -35,3 +32,37 @@ export const karrierechancen =
 
 export const initiativen =
 `Internationale Organisationen, Regierungen und NGOs arbeiten daran, diese Unterschiede zu verringern und die Gleichstellung der Geschlechter in der Arbeitswelt zu fördern. Initiativen in der Schweiz zielen darauf ab, gleiche Löhne und gleiche Chancen für alle Geschlechter zu gewährleisten.`;
+
+export const question_one = {
+  labels: ['Ja', 'Nein'],
+  datasets: [{
+    label: 'Zweite Frage',
+    data: [1,11],
+    borderWidth: 1
+  }]
+}
+
+export const question_two = {
+  labels: ['Ja,', 'Nein','Weiss nicht'],
+  datasets: [{
+    label: 'Erste Frage',
+    data: [7,1,4],
+    borderWidth: 1
+  }]
+}
+
+export const question_three = {
+  labels: ['Männer', 'Frauen', 'Beide gleich'],
+  datasets: [{
+    label: 'Dritte Frage',
+    data: [9,1,2],
+    borderWidth: 1
+  }]
+}
+
+
+export const zitat1=
+`«Wenn eine Frau 5 Kinder hat und eine Frau wieder arbeiten will, dann wird sie meistens darauf angesprochen. Wenn ein Mann mit 5 Kindern arbeiten geht, werden ihm keine Fragen gestellt, da es von der Gesellschaft als normal angesehen wird.»`;
+
+export const zitat2=
+`«Im Moment ist die Frau besser dargestellt in der Schweiz, weil nur auf die Frauen geschaut wird und die Männer gehen total unter. Männer haben was Scheidungen und Altersvorsorgen viele Nachteile, von denen viele nichts wissen. Mein Sohn war mal am Bahnhof und sah einen Gleichberechtigungsstand wo er sich ein Prospekt holen wollte, aber dann sagte die Frau am Stand: "Nein sie sind ein Mann!". Natürlich hat sich meine Meinung nicht nur durch dieses Ereignis gebildet.»`;
