@@ -4,6 +4,7 @@ import './index.css'
 import { bildung, gender_pay_gap, gesetze_diskriminierung, gesundheit_rechte, initiativen, internationale_bemühungen, karrierechancen, politische_teilhabe, tradition_kultur, umfrage_überblick, vision, wirtschaft, zitat1, zitat2 } from './assets/content'
 import Topic from './components/topic'
 import { Charts } from './assets/charts'
+import Footer from './components/footer'
 
 
 export default function App() {
@@ -57,6 +58,7 @@ export default function App() {
           </Topic>
         </div>
       </div>
+      <Footer />
     </>
   )
 }

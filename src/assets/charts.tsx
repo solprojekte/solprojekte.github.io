@@ -6,7 +6,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 export const Charts = () => {
   return (
-    <div style={{height:300, display:'flex',}}>
+    <div className='charts'>
       <Pie data={question_one}/>
       <Pie data={question_two} />
       <Pie data={question_three}/>
