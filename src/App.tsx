@@ -5,6 +5,8 @@ import { bildung, gender_pay_gap, gesetze_diskriminierung, gesundheit_rechte, in
 import Topic from './components/topic'
 import { Charts } from './assets/charts'
 import Footer from './components/footer'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function App() {
@@ -56,9 +58,13 @@ export default function App() {
             <h4>Initiativen</h4>
             {initiativen}
           </Topic>
+          <a onClick={() => window.open('https://forms.gle/HVDpzMCdg1GXyceJA')}>
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{marginRight:5}}/>
+            Noch lust nachträglich an unserer Umfrage teilzunehmen?
+            </a>
         </div>
       </div>
       <Footer />
     </>
   )
-}
+} 
